@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #121725;
+  --secondary-color: #54e6af;
+  --dark-grey: #2c344b;
+  --medium-grey: #5a668a;
+  --light-grey: #c2cbe5;
+  --white: #ffffff;
+  --font-family: "Chivo", sans-serif;
+}
+
+body {
+  background-image: url("../assets/mobile/image-host.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding-top: 62px;
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  height: 100vh;
+}
+
+.logo img {
+  height: 56px;
+  width: 134px;
+}
+
+main {
+  margin-top: 57px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 100;
+  margin: 0;
+}
+
+h2 span {
+  color: var(--white);
+}
+
+p {
+  color: var(--light-grey);
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.distribution-platforms ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 33px;
+  margin-bottom: 48px;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+#spotify-logo {
+  width: 56px;
+  height: 17px;
+}
+
+#apple-podcast-logo {
+  width: 45px;
+  height: 17px;
+}
+
+#google-podcasts-logo {
+  width: 73px;
+  height: 11px;
+}
+
+#pocket-casts-logo {
+  width: 77px;
+  height: 15px;
+}
+
+.access-request form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.access-request input {
+  background-color: var(--dark-grey);
+  border: none;
+  border-radius: 28px;
+  height: 46px;
+  margin-bottom: 16px;
+  padding-left: 32px;
+}
+
+.access-request input::placeholder {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.access-request button {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 28px;
+  height: 46px;
+}
